@@ -1,0 +1,21 @@
+06-22 19:35:34.019 17928 17928 F AEE/DEBUG: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-22 19:35:34.020 17928 17928 F AEE/DEBUG: Build fingerprint: 'Meizu/meizu_MX6/MX6:6.0/MRA58K/1488820514:user/release-keys'
+06-22 19:35:34.020 17928 17928 F AEE/DEBUG: Revision: '0'
+06-22 19:35:34.020 17928 17928 F AEE/DEBUG: ABI: 'arm'
+06-22 19:35:34.020 17928 17928 F AEE/DEBUG: pid: 17774, tid: 17805, name: SDLThread  >>> com.jerrystudio.stoneage <<<
+06-22 19:35:34.020 17928 17928 F AEE/DEBUG: signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x8
+06-22 19:35:34.046 17928 17928 F AEE/DEBUG:     r0 ffffffff  r1 d6b749bc  r2 d6b7434c  r3 00000000
+06-22 19:35:34.047 17928 17928 F AEE/DEBUG:     r4 e5826200  r5 d6b74a44  r6 000004c4  r7 d5b8e448
+06-22 19:35:34.047 17928 17928 F AEE/DEBUG:     r8 00000301  r9 000000ff  sl e5826200  fp d5b8e4d8
+06-22 19:35:34.047 17928 17928 F AEE/DEBUG:     ip dd4b10e8  sp d5b8e3c0  lr d6aa8fef  pc d6aa922a  cpsr a00f0030
+06-22 19:35:34.054 17928 17928 F AEE/DEBUG:
+06-22 19:35:34.054 17928 17928 F AEE/DEBUG: backtrace:
+06-22 19:35:34.055 17928 17928 F AEE/DEBUG:     #00 pc 0002d22a  /data/app/com.jerrystudio.stoneage-2/lib/arm/libmain.so (_Z6masterP6action+1281)
+06-22 19:35:34.056 17928 17928 F AEE/DEBUG:     #01 pc 0003458b  /data/app/com.jerrystudio.stoneage-2/lib/arm/libmain.so (_Z9RunActionv+70)
+06-22 19:35:34.056 17928 17928 F AEE/DEBUG:     #02 pc 00082907  /data/app/com.jerrystudio.stoneage-2/lib/arm/libmain.so (_Z10BattleProcv+1950)
+06-22 19:35:34.057 17928 17928 F AEE/DEBUG:     #03 pc 00063231  /data/app/com.jerrystudio.stoneage-2/lib/arm/libmain.so (_Z8GameMainv+560)
+06-22 19:35:34.058 17928 17928 F AEE/DEBUG:     #04 pc 0009476d  /data/app/com.jerrystudio.stoneage-2/lib/arm/libmain.so (SDL_main+336)
+06-22 19:35:34.058 17928 17928 F AEE/DEBUG:     #05 pc 00022a41  /data/app/com.jerrystudio.stoneage-2/lib/arm/libmain.so (Java_org_libsdl_app_SDLActivity_nativeInit+228)
+06-22 19:35:34.059 17928 17928 F AEE/DEBUG:     #06 pc 0000f799  /data/app/com.jerrystudio.stoneage-2/oat/arm/base.odex (offset 0xd000) (int org.libsdl.app.SDLActivity.nativeInit(java.lang.Object)+92)
+06-22 19:35:34.059 17928 17928 F AEE/DEBUG:     #07 pc 000177d1  /data/app/com.jerrystudio.stoneage-2/oat/arm/base.odex (offset 0xd000) (void org.libsdl.app.SDLMain.run()+132)
+06-22 19:35:34.060 17928 17928 F AEE/DEBUG:     #08 pc 026f0141  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x26d2000)

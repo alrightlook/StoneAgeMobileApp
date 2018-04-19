@@ -1,0 +1,7 @@
+"BB|a0|w1|r13|f20|d0|p0|FF|BJ|a13|iBC614E|m0|18B00|18B07|FFFFFFFF|s4|t0|l1|215|16D|FFFFFFF8|FFFFFFE7|0|0|o0|o0|o0|s1|44C|898|r0|FF|0|0|78|0|12345678|BH|a11|r0|f0|d0|p0|FF|bg|12|bg|10|BH|aF|r0|f20|d0|p0|FF|",
+"BB|a0|w1|r13|fA|d0|p0|FF|bg|13|BH|a11|r0|f20|d0|p0|FF|BH|a12|r0|f20|d0|p0|FF|BH|a10|r0|f2|d1|p0|FF|BH|aF|r0|f20|d0|p0|FF|",
+"BB|a0|w1|r13|f45|d52C|p0|FF|BH|a11|r0|f20|d0|p0|FF|BE|e12|f1|BH|aF|r0|f20|d0|p0|FF|BH|a10|r0|f20|d0|p0|FF|",
+"BB|a0|w1|r11|fC|d1|p0|FF|bg|11|BH|aF|r0|f20|d0|p0|FF|BE|e10|f1|",
+"BB|a0|w1|r11|fC|d19A|p0|FF|bg|11|BH|aF|r0|f20|d0|p0|FF|",
+"BB|a0|w1|r11|f5|d549|p0|FF|BH|aF|r0|f20|d0|p0|FF|",
+"BB|a0|w1|rF|f45|d561|p0|FF|",
